@@ -5,10 +5,10 @@
 
 Making AI agents do the work, for one person or a whole company.
 
-I build open source tools for people who already work with AI agents and want them to get more done with less babysitting.
+Wainmann builds open source tools for teams and individuals who work with AI agents every day. We focus on making agents reliable enough to hand real work to, and easy to keep an eye on while they do it.
 
-The main project right now is [agent-manager](https://github.com/wainmann/agent-manager). It runs the coding agents you already use, like Claude Code, Codex, OpenCode and Gemini CLI, side by side in one terminal UI. You can see what each one is doing, send prompts, work in separate worktrees and review diffs without leaving the keyboard. It's a single binary with no server and no account. Docs and install steps are on [agent-manager.dev](https://agent-manager.dev), and you can come say hi on [Discord](https://discord.gg/ecS88An7pF).
+Our main project is [agent-manager](https://github.com/wainmann/agent-manager). It runs the coding agents you already use, such as Claude Code, Codex, OpenCode and Gemini CLI, side by side in one terminal UI. You can follow what each agent is doing, send prompts, work in separate worktrees and review diffs without leaving the keyboard. It ships as a single binary with no server and no account. Documentation and install steps are at [agent-manager.dev](https://agent-manager.dev), and the community is on [Discord](https://discord.gg/ecS88An7pF).
 
-Bugs and ideas are welcome in the issues of the project they belong to. If you find a security problem, please report it privately as described in the [security policy](https://github.com/wainmann/.github/blob/main/SECURITY.md).
+We welcome bug reports and feature requests in each project's issues. To report a security problem, please follow our [security policy](https://github.com/wainmann/.github/blob/main/SECURITY.md) and contact us privately.
 
-More at [wainmann.com](https://wainmann.com).
+Learn more at [wainmann.com](https://wainmann.com).
