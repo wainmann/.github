@@ -1,0 +1,65 @@
+name: Bug report
+description: Something behaves differently than the docs say it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please say exactly what you did and what you saw.
+
+        Found a security problem? Please don't file it here. Use the repository's Security tab to report it privately.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you got instead.
+      placeholder: |
+        1. Ran ...
+        2. Clicked or typed ...
+        3. Expected ..., got ... instead
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version you're running, or the commit if you built from source.
+      placeholder: v1.2.3
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Linux
+        - Windows (WSL2)
+        - Windows
+        - Other
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment details
+      description: Anything else about your setup that might matter, such as the agent CLI and its version, your terminal, or your browser.
+      render: text
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, output, or screenshots
+      description: Error output, logs, or a screenshot of what you saw. Drag images straight in.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I'm on the latest release, or I've said above why I can't upgrade.
+          required: true
+        - label: I searched existing issues and didn't find this one.
+          required: true
